@@ -1,0 +1,35 @@
+{
+    "adminAccount": "Flash",
+    "adminUser": "Reward App",
+    "accounts": [
+        {
+            "AccNr": 22,
+            "MTN": 1000,
+            "Vodacom":2000,
+            "CellC" : 500
+            
+        },
+        {
+            "AccNr": 25,
+            "MTN":500,
+            "Vodacom":200,
+            "CellC" : 600
+            
+        },
+        {
+            "AccNr": 24,
+            "MTN":700,
+            "Vodacom":300,
+            "CellC" : 900
+            
+        },
+        {
+            "AccNr": 21,
+            "MTN":600,
+            "Vodacom":5000,
+            "CellC" : 2000
+            
+        }
+    ]
+}
+

@@ -1,0 +1,33 @@
+{
+  "name": "scan-zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethW1994/scanzone-backend.git"
+  },
+  "author": "Intern-Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarethW1994/scanzone-backend/issues"
+  },
+  "homepage": "https://github.com/GarethW1994/scanzone-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.1.1",
+    "mocha": "^5.0.0",
+    "mongoose": "^5.0.4",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}

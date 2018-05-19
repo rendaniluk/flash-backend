@@ -1,0 +1,30 @@
+{
+    "adminAccount": "Flash",
+    "adminUser": "Reward App",
+    "users": [
+        {
+            "username": "demo",
+            "password": "demo",
+            "role": "merchant"
+            
+        },
+        {
+            "username": "mandeno",
+            "password": "demo",
+            "role": "mechant"
+            
+        },
+        {
+            "username": "Rendani",
+            "password": "demo",
+            "role": "mechant"
+            
+        },
+        {
+            "username": "Liwa",
+            "password": "demo",
+            "role": "mechant"
+            
+        }
+    ]
+}
