@@ -16,7 +16,7 @@ module.exports = function(Model) {
       if (err) {
         return next(err)
       } else if (currAcount) {
-        if((MTN || CellC || Vodacom)== undefined){
+        if((MTN || CellC || Vodacom)== null){
           MTN = 0;
           CellC =0;
           Vodacom =0
