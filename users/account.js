@@ -5,7 +5,7 @@ var bcrypt = require('bcryptjs');
 const config = require('../config');
 const Models = require('../modules/Modules');
 
-const mongoURL = process.env.MONGO_DB_URL || 'mongodb://localhost/flash-backend';
+const mongoURL = process.env.MONGO_DB_URL || 'mongodb://flash-app:11582924@ds157599.mlab.com:57599/flash-backend';
 const models = Models(mongoURL);
 
 const automateAccounts = function () {
