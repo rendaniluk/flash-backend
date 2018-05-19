@@ -41,7 +41,7 @@ const accountTotal = function (req, res, next) {
     }
   });
 }
-
+//https://sleepy-castle-40323.herokuapp.com/ 
   const getOneAcc = function (req, res, next) {
     Model.account.findOne({
       AccNr: req.body.AccNr

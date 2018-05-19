@@ -83,8 +83,8 @@ app.use(function(req, res, next) {
 });
 
 // PORT
-const port = 3001;
+app.set('port', (process.env.PORT || 5000));
 
-app.listen(port, function() {
-  console.log("Express App Running at port " + port);
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
