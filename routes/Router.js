@@ -17,16 +17,15 @@ module.exports = function(Model) {
         return next(err)
       } else if (currAcount) {
         if((MTN || CellC || Vodacom)== undefined){
-          MTN =0;
+          MTN = 0;
           CellC =0;
-          Vodacom =0;
-        
+          Vodacom =0
+        }
         currAcount.MTN += +MTN;
         currAcount.Vodacom += +Vodacom;
         currAcount.CellC += +CellC;
         currAcount.save()
         res.json(currAcount)
-        }
       }
     });
   }
