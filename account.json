@@ -4,6 +4,7 @@
     "accounts": [
         {
             "AccNr": 22,
+            "email": "lukhwa11582924@gmail.com",
             "MTN": 1000,
             "Vodacom":2000,
             "CellC" : 500
@@ -11,6 +12,7 @@
         },
         {
             "AccNr": 25,
+            "email":"anelesigenu@gmail.com",
             "MTN":500,
             "Vodacom":200,
             "CellC" : 600
@@ -18,6 +20,7 @@
         },
         {
             "AccNr": 24,
+            "email":"lukhwa@gmail.com",
             "MTN":700,
             "Vodacom":300,
             "CellC" : 900
@@ -25,6 +28,7 @@
         },
         {
             "AccNr": 21,
+            "email":"manu@gmail.com",
             "MTN":600,
             "Vodacom":5000,
             "CellC" : 2000

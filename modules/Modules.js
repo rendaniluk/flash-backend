@@ -20,6 +20,7 @@ module.exports = function (url) {
 
     var AccountSchema = new mongoose.Schema({
         AccNr: Number,
+        email: String,
         MTN: Number,
         Vodacom: Number,
         CellC: Number

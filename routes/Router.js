@@ -27,7 +27,7 @@ module.exports = function(Model) {
 
 const accountTotal = function (req, res, next) {
   Model.account.findOne({
-    AccNr: req.body.AccNr
+    email: req.body.email
   }, function(err, currAcount) {
     if (err) {
       return next(err)
