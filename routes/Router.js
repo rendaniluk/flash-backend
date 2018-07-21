@@ -10,7 +10,7 @@ module.exports = function(Model) {
     var amount = req.body.amount;
     Model.account.findOne(
       {
-        AccNr: req.body.AccNr
+        email: req.body.email
       },
       function(err, currAcount) {
         if (err) {
